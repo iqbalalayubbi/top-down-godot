@@ -1,0 +1,6 @@
+[gd_scene format=2]
+
+[node name="darah" type="ColorRect"]
+margin_right = 32.0
+margin_bottom = 4.0
+color = Color( 0, 0.627451, 0.0235294, 1 )

@@ -1,0 +1,87 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/radial_menu/RadialMenu.gd" type="Script" id=1]
+[ext_resource path="res://asset/flip.png" type="Texture" id=2]
+
+[node name="RadialMenu" type="Container"]
+margin_left = 40.0
+margin_top = 40.0
+margin_right = 379.0
+margin_bottom = 227.0
+script = ExtResource( 1 )
+cursor_size = 0.289
+cursor_deg = -1.826
+bevel_width = 0.167
+modulate_enabled = true
+
+[node name="Button7" type="Button" parent="."]
+modulate = Color( 0.713726, 0.713726, 0.713726, 1 )
+margin_left = 97.6715
+margin_top = 121.598
+margin_right = 133.672
+margin_bottom = 177.826
+rect_scale = Vector2( 0.5, 0.5 )
+rect_pivot_offset = Vector2( 18, 28.114 )
+focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+
+[node name="Button8" type="Button" parent="."]
+modulate = Color( 0.713726, 0.713726, 0.713726, 1 )
+margin_left = 171.203
+margin_top = 142.174
+margin_right = 207.203
+margin_bottom = 198.402
+rect_scale = Vector2( 0.5, 0.5 )
+rect_pivot_offset = Vector2( 18, 28.114 )
+focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+
+[node name="Button9" type="Button" parent="."]
+modulate = Color( 0.713726, 0.713726, 0.713726, 1 )
+margin_left = 225.031
+margin_top = 85.9611
+margin_right = 261.031
+margin_bottom = 142.189
+rect_scale = Vector2( 0.5, 0.5 )
+rect_pivot_offset = Vector2( 18, 28.1141 )
+focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+
+[node name="Button10" type="Button" parent="."]
+modulate = Color( 0.713726, 0.713726, 0.713726, 1 )
+margin_left = 205.328
+margin_top = 9.17355
+margin_right = 241.329
+margin_bottom = 65.4016
+rect_scale = Vector2( 0.5, 0.5 )
+rect_pivot_offset = Vector2( 18, 28.114 )
+focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+
+[node name="Button11" type="Button" parent="."]
+modulate = Color( 0.713726, 0.713726, 0.713726, 1 )
+margin_left = 131.797
+margin_top = -11.4016
+margin_right = 167.797
+margin_bottom = 44.8265
+rect_scale = Vector2( 0.5, 0.5 )
+rect_pivot_offset = Vector2( 18, 28.114 )
+focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+
+[node name="Button12" type="Button" parent="."]
+modulate = Color( 0.713726, 0.713726, 0.713726, 1 )
+margin_left = 77.9689
+margin_top = 44.8108
+margin_right = 113.969
+margin_bottom = 101.039
+rect_scale = Vector2( 0.5, 0.5 )
+rect_pivot_offset = Vector2( 18, 28.114 )
+focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
